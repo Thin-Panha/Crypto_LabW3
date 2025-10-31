@@ -51,7 +51,7 @@ func main() {
 	var tried int64 = 0
 	progressInterval := int64(10000)
 
-	fmt.Printf("Starting SHA512 crack.\nWordlist: %s\nTarget: %s\nVerbose: verbose.txt\n\n",
+	fmt.Printf("Starting SHA1 crack.\nWordlist: %s\nTarget: %s\nVerbose: verbose.txt\n\n",
 		*wordlistPath, *hashValue)
 
 	found := false
